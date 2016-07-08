@@ -1,0 +1,62 @@
+<div class="col-md-12">
+
+  <div class="jumbotron">
+    <h1>Ng2 Social Share</h1>
+    <p>Angular 2 social share made easy!</p>
+  </div>
+
+  <h2>Facebook</h2>
+
+  <h4>Params</h4>
+  <pre>
+    <code>
+        export class TwitterParams {
+           u: string
+      }
+    </code>
+  </pre>
+  <button ceiboShare class="btn btn-raised btn-primary" [facebook]="{u: repoUrl}">Facebook</button>
+
+  <h2>Linkedin</h2>
+
+  <h4>Params</h4>
+  <pre>
+    <code>
+        export class TwitterParams {
+           u: string
+      }
+    </code>
+  </pre>
+
+
+  <button ceiboShare class="btn btn-raised btn-info" [linkedIn]="{url:repoUrl}">Linkedin</button>
+
+  <h2>Twitter</h2>
+
+  <h4>Params</h4>
+  <pre>
+    <code>
+        export class TwitterParams {
+           u: string
+      }
+    </code>
+  </pre>
+
+  <button ceiboShare class="btn btn-raised btn-warning" [twitter]="{url:repoUrl, text:'Checkout this awesome ng2 social share directive', hashtags:'angular2, social, ceiboIT'}">Twitter</button>
+
+  <h2>Pinterest</h2>
+
+  <h4>Params</h4>
+  <pre>
+    <code>
+        export class TwitterParams {
+           u: string
+      }
+    </code>
+  </pre>
+
+
+
+  <button ceiboShare class="btn btn-raised btn-success" [pinterest]="{url:repoUrl, media: imageUrl, description:'Checkout this awesome angular2 directive'}">Pinterest</button>
+
+</div>
